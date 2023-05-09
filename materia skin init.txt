@@ -1,0 +1,16 @@
+Font Font18 = new Font("Noto Sans TC", 18, FontStyle.Bold);
+Font Font15 = new Font("Noto Sans TC", 15, FontStyle.Bold);
+Font Font12_bold = new Font("Microsoft JhengHei", 12, FontStyle.Bold);
+Font Font12 = new Font("Noto Sans TC", 12);
+
+public void InitialLabelStyle(Label LB, Color ForeColor, Font FontStyle, Color c)
+{
+	LB.ForeColor = ForeColor;
+	LB.BackColor = c;
+	LB.Font = FontStyle;
+}
+InitialLabelStyle(label76, Color.Black, Font18, Color.Transparent);
+InitialLabelStyle(label77, Color.Black, Font18, Color.Transparent);
+
+InitialLabelStyle(label48, Color.Black, Font18, Color.Transparent);
+InitialLabelStyle(label5, Color.Black, Font15, Color.FromArgb(224,248,252));
